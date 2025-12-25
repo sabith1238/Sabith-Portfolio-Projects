@@ -11,6 +11,7 @@ import bookmarksaver from "./assets/bookmarksaver.png";
 import quizz from "./assets/quizz.png";
 import kanbanboard from "./assets/kanbanboard.png";
 import formvalidator from "./assets/formvalidator.png";
+import weatherapp from "./assets/weatherapp.png";
 
 function App() {
     const projects = [
@@ -25,6 +26,12 @@ function App() {
             title: "Recipe Finder",
             text: "Uses TheMealDB API to find recipes",
             link: "https://sabith1238.github.io/RecipeFinder/",
+        },
+        {
+            img: weatherapp,
+            title: "Weather App (ReactJS)",
+            text: "Weather App using OpenWeather and OpenStreet API",
+            link: "https://sabith1238.github.io/weatherapp-react/",
         },
         {
             img: currencyconverter,

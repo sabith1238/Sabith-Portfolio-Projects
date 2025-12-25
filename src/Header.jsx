@@ -19,7 +19,7 @@ export default function Header() {
                                 />
                                 <div className="d-flex flex-column">
                                     <h5 className="card-title mb-1">Sabith Ahmed</h5>
-                                    <p className="card-text mb-2">Aspiring Web Developer</p>
+                                    <p className="card-text mb-2">FrontEnd Web Developer</p>
                                     <div className="d-flex flex-column gap-1">
                                         <a
                                             target="_blank"
