@@ -12,6 +12,7 @@ import quizz from "./assets/quizz.png";
 import kanbanboard from "./assets/kanbanboard.png";
 import formvalidator from "./assets/formvalidator.png";
 import weatherapp from "./assets/weatherapp.png";
+import todoappretro from "./assets/todoapp-retro.png";
 
 function App() {
     const projects = [
@@ -20,6 +21,12 @@ function App() {
             title: "GitHub User Finder",
             text: "Uses the GitHub API to find and display user data",
             link: "https://sabith1238.github.io/GithubFinder/",
+        },
+        {
+            img: todoappretro,
+            title: "Retro TodoApp (React JS)",
+            text: "Uses LocalStorage and React JS",
+            link: "https://sabith1238.github.io/TodoApp-Retro/",
         },
         {
             img: recipefinder,
